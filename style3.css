@@ -1,0 +1,55 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(23.jpg);
+    height:auto;
+    background-size:cover;
+    background-position: center;
+}
+.logo img{
+    float: left;
+    width:158px;
+    height: auto;
+    padding-left:1px;
+    padding-top:0px;
+}
+.title 
+{
+padding:center;
+}
+.title h1{
+    color:rgb(124, 252, 5);
+    font-size:40px;
+    color: rgb(11, 252, 200);
+    align-content:top;
+    text-align: center;
+    font-size:50px;
+    }
+div{
+    color: aliceblue;
+    padding-bottom:12%;
+    font-size:20px;
+    text-shadow:30vh;
+    }
+    .blockquote-class {
+        color: aliceblue;
+        padding-bottom:12%;
+        font-size:20px;
+    }
+    figure{
+        color: aliceblue;
+        text-align: center;
+        font-size:20px;
+        text-shadow:30vh;
+        padding-top:0%;
+    }
+.title 
+{
+padding:center;
+}
+.title h2{
+    color:rgb(124, 252, 5);
+    font-size:40px;
+    color: rgb(103, 110, 109);
+    align-content:top;
+    text-align: center;
+    font-size:50px;
+    }

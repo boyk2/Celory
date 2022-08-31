@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html contact Submission</title>
+    <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form  action="https://formsubmit.co/el/xipopa" method="POST" /> >
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <select name="Continent">
+                  <option>Dar-es-salaam</option>
+                    <option>Arusha</option>
+                    <option>Kilimanjaro</option>
+                    <option>Dodoma</option>
+                    <option>Mwanza</option>
+                    <option>Tanga</option>
+                    <option>Bagamoyo</option>
+                    <option>Morogoro</option>
+                    <option>Tabora</option>
+                    <option>Other Cities</option>
+                    <option>OUTSIDE-TANZANIA</option>
+                    </select>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn" onclick="openpopup()">Send</button>
+                    
+                    <div class="popup" id="popup">
+                    <img src="t.jpeg">
+                    <h2>Thank You</h2>
+                    <p>Your Details Has Succesfully Submitted</p>
+                    <button type="button" class="btn" onclick="closepopup()">OK</button>
+                    </div>
+                </div>
+                <script>
+                 let popup = document.getElementById("popup");
+
+                 function openpopup(){
+                    popup.classList.add("open-popup");
+                 }
+                 function closepopup(){
+                    popup.classlist.remove("open-popup");
+                 }
+
+                </script>
+                </form>
+    </body>
+ </head>
+</html>
